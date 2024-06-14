@@ -37,4 +37,3 @@ if uploaded_file is not None:
         colony_count, result_image = count_colonies(image)
         st.image(result_image, caption=f"Processed Image - {colony_count} colonies found", use_column_width=True)
         st.success(f"Number of colonies: {colony_count}")
-
